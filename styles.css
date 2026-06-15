@@ -78,6 +78,22 @@ body {
     font-weight: 500;
 }
 
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
 .main-content {
     padding: 2rem;
 }
